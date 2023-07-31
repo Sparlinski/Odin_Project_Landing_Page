@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: aliceblue;
+}
+
+.containers {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 50px;
+    background-color: black;
+}
+
+.container-one {
+    height: 350px;
+    background-color: black;
+}
+
+.container-two {
+    height: 350px;
+    background-color: grey;
+}
+
+.container-three {
+    height: 325px;
+    background-color: black;
+}
+
+.container-four {
+    height: 300px;
+    background-color: grey;
+}
+
+.footer {
+    height: 50px;
+    background-color: black;
+}
