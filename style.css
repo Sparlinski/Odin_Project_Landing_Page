@@ -11,9 +11,10 @@
 }
 
 .header {
-    height: 50px;
-    background-color: #1f2937;
-    padding: 0px 150px; 
+    height: 55px;
+    background-color: rgb(5, 20, 34);
+    padding: 0px 150px;
+    border-bottom: 2.5px solid rgb(227, 1, 24);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -21,9 +22,14 @@
     color: #f9faf8;
 }
 
-.header h1 {
-    font-size: 24px;
-    font-weight: 500;
+.logo {
+    width: 250px;
+    height: 50px;
+    background-image: url(../Odin_Project_Landing_Page/Images/Red_Bull_Racing_logo.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 45%;
 }
 
 ul {
@@ -36,11 +42,11 @@ ul {
 /*----------------CONTAINER ONE----------------------*/
     
 .container-one {
-    height: 350px;
-    background-color: black;
+    height: 450px;
+    background-color: rgb(5, 20, 34);
     color: #f9faf8;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0px 150px;
 
@@ -48,8 +54,8 @@ ul {
 
 .left-content,
 .right-content {
-    height: 200px;
-    flex: 1;
+    height: 220px;
+    width: 500px
 }
 
 .left-content {
@@ -65,45 +71,108 @@ ul {
 
  .p1 {
     font-size: 18px;
+    padding: 0px 20px 5px 0px;
     color: #e5e7eb;
-    width: 425px;
 }
 
 .button {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 35px;
+    padding: 5px;
     width: 125px;
-    margin-top: 5px;
-    background-color: #3882f6;
+    background-color: #e30118;
     border-radius: 5px;
     
 }
-.right-content {
-    background-color: grey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.main-image {
+
+    height: 220px;
+    width: 500px;
+    border-radius: 5px;
+    background-image: url(../Odin_Project_Landing_Page/Images/main_image.jpg);
+    background-size: cover;
+    background-position-y: -20px;
+    box-shadow: 60px -16px rgb(253, 217, 0);
 }
 
-
-/*----------------CONTAINER ONE----------------------*/
+/*----------------CONTAINER TWO----------------------*/
 
 .container-two {
-    height: 350px;
-    background-color: grey;
+    height: 450px;
+    background-color: rgb(192, 191, 191);
+    padding-top: 50px;
+    text-align: center;
 }
+
+.header3 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+
+}
+.race-review,
+.team-news,
+.upcoming-race,
+.behind-the-paddock {
+    width: 175px;
+    height: 175px;
+    border-radius: 10px;
+    background-size: cover;
+    border: 2px solid rgb(5, 20, 34);
+    box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, .2);
+}
+
+p {
+    width: 175px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.images,
+.text  {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.race-review {
+    background-image: url(../Odin_Project_Landing_Page/Images/race_review.jpg);
+    background-position-x: 30%;
+    background-position-y: 30%;
+    background-size: 178%;
+    background-repeat: no-repeat;
+}
+
+.team-news {
+    background-image: url(../Odin_Project_Landing_Page/Images/team-news.jpeg);
+    background-position-x: 35%;
+}
+
+.upcoming-race {
+    background-image: url(../Odin_Project_Landing_Page/Images/next_race.jpeg);
+    background-position-x: 70%;
+}
+
+.behind-the-paddock {
+    background-image: url(../Odin_Project_Landing_Page/Images/from_the_paddock.jpeg);
+}
+/*----------------CONTAINER THREE----------------------*/
 
 .container-three {
     height: 325px;
     background-color: black;
 }
 
+/*----------------CONTAINER FOUR----------------------*/
+
 .container-four {
     height: 300px;
     background-color: grey;
 }
+
+/*----------------FOOTER----------------------*/
 
 .footer {
     height: 50px;
