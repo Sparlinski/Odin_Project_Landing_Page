@@ -25,11 +25,8 @@
 .logo {
     width: 250px;
     height: 50px;
-    background-image: url(../Odin_Project_Landing_Page/Images/Red_Bull_Racing_logo.png);
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: 45%;
+    object-fit: contain;
+    object-position: left;
 }
 
 .top {
@@ -92,9 +89,7 @@
     height: 220px;
     width: 500px;
     border-radius: 5px;
-    background-image: url(../Odin_Project_Landing_Page/Images/main_image.jpg);
-    background-size: cover;
-    background-position-y: -20px;
+    object-fit: cover;
     box-shadow: 60px -16px rgb(253, 217, 0);
 }
 
@@ -105,6 +100,17 @@
     background-color: rgb(192, 191, 191);
     padding: 10px 150px 0px 150px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-two-content {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 250px 0px 250px;
 }
 
 .header3 {
@@ -121,17 +127,10 @@
     width: 175px;
     height: 175px;
     border-radius: 10px;
-    background-size: cover;
+    object-fit: cover;
     border: 2px solid rgb(5, 20, 34);
     box-shadow: -20px -15px rgb(5, 20, 34);
 }
-
-.oracle {
-    width: 250px;
-    height: 50px;
-    margin: auto;
-}
-
 
 p {
     width: 175px;
@@ -146,56 +145,12 @@ p {
     justify-content: space-between;
 }
 
-.logo1 {
-    width: 100px;
-    height: 50px;
-    margin: auto;
-    margin-top: 25px;
-}
-
-.oracle {
-    background-image: url(../Odin_Project_Landing_Page/Images/Oracle-Logo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
-.race-review {
-    background-image: url(../Odin_Project_Landing_Page/Images/race_review.jpg);
-    background-position-x: 30%;
-    background-position-y: 30%;
-    background-size: 178%;
-    background-repeat: no-repeat;
-}
-
-.team-news {
-    background-image: url(../Odin_Project_Landing_Page/Images/team-news.jpeg);
-    background-position-x: 35%;
-}
-
-.upcoming-race {
-    background-image: url(../Odin_Project_Landing_Page/Images/next_race.jpeg);
-    background-position-x: 70%;
-}
-
-.behind-the-paddock {
-    background-image: url(../Odin_Project_Landing_Page/Images/from_the_paddock.jpeg);
-}
-
-.logo1 {
-    background-image: url(../Odin_Project_Landing_Page/Images/Red-Bull-Logo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 /*----------------CONTAINER THREE----------------------*/
 
 .container-three {
     height: 325px;
     background-color: rgb(5, 20, 34);
-    background-image: url(../Odin_Project_Landing_Page/Images/background.jpg);
+    background-image: url(Images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -249,7 +204,7 @@ p {
     width: 500px;
     border-radius: 10px 0px 0px 10px;
 }
-
+ 
 .comp-right {
     display: flex;
     flex-direction: column;
